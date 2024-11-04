@@ -5,7 +5,6 @@
 using namespace std;
 
 
-
 int variable () {
 
     string nombre;
