@@ -3,7 +3,7 @@
 
 
 
-int sumar ();
+void sumar ();
 void imprimirSuma(int a, int b);
 void llamarFunciones();
 double suma (double a, double b);

@@ -14,7 +14,7 @@ double suma(double a, double b) {
     return a + b;
 }
 
-int sumar() {
+void sumar() {
     int a = 5, b = 10;
     cout << "La suma de a + b es: " << a + b << endl;
     cout << "Variable local dentro de la función: " << localVar << endl;
@@ -24,7 +24,6 @@ int sumar() {
     imprimirSuma(a, b);
     llamarFunciones();
 
-    return 0;
 }
 
 
