@@ -3,15 +3,15 @@
 
 using namespace std;
 
-int bucle_for(){
+void bucle_for(){
     for (int i = 1; i <= 10; i++) {
         cout << i << endl;
     }
-    return 0;
+
 }
 
 
-int bucle_while(){
+void bucle_while(){
     int num, i = 1;
 
     cout << "Ingrese un número: ";
@@ -21,10 +21,10 @@ int bucle_while(){
         cout << num << " x " << i << " = " << num * i << endl;
         i++;
     }
-    return 0;
+
 }
 
-int bucle_do_while(){
+void bucle_do_while(){
     int num, i = 1;
 
     cout << "Ingrese un número: ";
@@ -35,16 +35,15 @@ int bucle_do_while(){
         i++;
     } while (i <= 10);
 
-    return 0;
 }
 
-int breack(){
+void breack(){
     for (int i = 1; i <= 10; i++) {
         if (i == 5) {
             break;
         }
         cout << i << endl;
     }
-    return 0;
+
 
 }

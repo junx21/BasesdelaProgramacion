@@ -3,10 +3,10 @@
 
 
 
-int bucle_for();
-int bucle_while();
-int bucle_do_while();
-int breack();
+void bucle_for();
+void bucle_while();
+void bucle_do_while();
+void breack();
 
 
 #endif //EJ3_H
