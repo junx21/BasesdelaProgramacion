@@ -4,6 +4,7 @@
 
 using namespace std;
 
+int varGlobal = 10;
 
 int variable () {
 
@@ -44,6 +45,8 @@ int variable () {
     else {
         cout << "no eres estudiante." << endl;
     }
+
+    cout << "La variable global es: " << varGlobal << endl;
 
     return 0;
 }
