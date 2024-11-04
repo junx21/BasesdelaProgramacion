@@ -3,7 +3,9 @@
 
 using namespace std;
 
-
+void modificarValor(int& x) {
+    x *= 2;
+}
 
 
 int referencias() {
@@ -16,6 +18,3 @@ int referencias() {
     return 0;
 }
 
-void modificarValor(int& x) {
-    x *= 2;
-}
