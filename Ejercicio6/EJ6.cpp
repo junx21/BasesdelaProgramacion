@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int puntero() {
+void puntero() {
     int numero = 10;
     int* puntero = &numero;
 
@@ -24,5 +24,5 @@ int puntero() {
 
     delete[] arregloDinamico;
 
-    return 0;
+
 }

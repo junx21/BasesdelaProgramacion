@@ -3,7 +3,7 @@
 
 
 
-int puntero();
+void puntero();
 
 
 
