@@ -8,13 +8,13 @@ void modificarValor(int& x) {
 }
 
 
-int referencias() {
+void referencias() {
     int numero = 100;
     cout << "Valor original: " << numero << endl;
 
     modificarValor(numero);
     cout << "Valor modificado: " << numero << endl;
 
-    return 0;
+
 }
 

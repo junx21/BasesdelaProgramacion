@@ -2,7 +2,7 @@
 #define EJ7_H
 
 
-int referencias();
+void referencias();
 void modificarValor(int& x);
 
 
