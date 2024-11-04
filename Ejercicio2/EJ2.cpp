@@ -32,6 +32,5 @@ int operadores() {
     sol = !(n1 == n2);
     cout << "sol = !(n1 == n2)" << sol << endl;
 
-
-
+    return 0;
 }
