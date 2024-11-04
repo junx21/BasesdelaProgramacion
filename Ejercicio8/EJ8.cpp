@@ -9,7 +9,7 @@ const double PI = 3.14159;
 
 enum Dias {DOMINGO, LUNES, MARTES, MIERCOLES, JUEVES, VIERNES, SABADO};
 
-int constantes() {
+void constantes() {
     cout << "Valor de PI: " << PI << endl;
     cout << "Tamaño máximo: " << TAMANIO_MAXIMO << endl;
 
@@ -20,5 +20,5 @@ int constantes() {
     enteroLargo numeroGrande = 1234567890;
     cout << "Número grande: " << numeroGrande << endl;
 
-    return 0;
+
 }

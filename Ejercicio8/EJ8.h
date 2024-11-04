@@ -3,7 +3,7 @@
 
 
 
-int constantes ();
+void constantes ();
 
 
 #endif //EJ8_H
