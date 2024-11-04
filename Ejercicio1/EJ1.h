@@ -3,7 +3,7 @@
 
 
 
-int variable ();
+void variable ();
 
 
 #endif //EJ1_H

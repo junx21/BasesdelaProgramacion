@@ -6,7 +6,7 @@ using namespace std;
 
 int varGlobal = 10;
 
-int variable () {
+void variable () {
 
     string nombre;
     int edad;
@@ -48,7 +48,7 @@ int variable () {
 
     cout << "La variable global es: " << varGlobal << endl;
 
-    return 0;
+
 }
 
 
