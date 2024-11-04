@@ -30,7 +30,7 @@ int operadores() {
     cout << "n1 ! n2" << (n1 != n2) << endl;
 
     sol = !(n1 == n2);
-    cout << "sol = !(n1 == n2)" << sol << endl;
+    cout << "sol = !(n1 == n2)\n" << sol << endl;
 
     return 0;
 }
